@@ -1,0 +1,13 @@
+간단한 docker 명령어
+
+docker pull-> images 다운받기
+docker run [images] -> images로 container 생성하기
+  --name 으로 이름 설정 가능 -p로 포터 설정 가능
+
+docker start/stop [container] -> 컨테이너 사용을 시작하고 중지할 수 있음
+docker ps -a-> 정지되어있거나 실행 중인 모든 컨테이너 보여줌
+
+docker rm [container]-> 사용자가 지정한 컨테이너 삭제
+docker rmi[images]-> 사용자가 지정한 이미지 삭제
+
+docker exec -> 컨테이너에 명령을 내릴 때 사용된다.
